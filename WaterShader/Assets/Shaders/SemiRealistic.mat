@@ -10,7 +10,7 @@ Material:
   m_Name: SemiRealistic
   m_Shader: {fileID: -6465566751694194690, guid: 9259b9b6b41b0354aaf5a61124c235ea,
     type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _RECEIVE_SHADOWS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -24,10 +24,21 @@ Material:
         m_Texture: {fileID: 2800000, guid: 83a99d7f339e37f429ffa06d9d9c9fe9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - Texture2D_C09AF5C7:
+        m_Texture: {fileID: 2800000, guid: 25752e703d7a1ae41b3111d83f1a2565, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_23DA84ED: 4
+    - Vector1_4D0F9F9: 2
+    - Vector1_520E150B: 3.06
     - Vector1_7E00B61A: 0.4
-    - Vector1_D0F5FA61: 1.2
-    - Vector1_F01A9740: 1.16
+    - Vector1_85AD126C: 0.06
+    - Vector1_937CEC22: 30
+    - Vector1_A45526A4: 1.88
+    - Vector1_D0F5FA61: 0
+    - Vector1_F01A9740: 0.3
+    - Vector1_FDC74FF9: 0.4
     m_Colors:
     - Color_2B870B84: {r: 0.26125848, g: 0.8580167, b: 0.9716981, a: 0}
+    - Color_2BC75C0B: {r: 0.20625666, g: 0.96362215, b: 0.9716981, a: 0}
